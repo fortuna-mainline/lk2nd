@@ -263,6 +263,7 @@
 		compatible = "samsung,grandprimelte", "samsung,gprimeltecan";
 		lk2nd,match-bootloader = "G530FZ*";
 
+		/* FIXME: Use msm8916-samsung-grandprimelte */
 		lk2nd,dtb-files = "msm8916-samsung-gprimeltecan";
 
 		qcom,msm-id = <QCOM_ID_MSM8916 0>;
